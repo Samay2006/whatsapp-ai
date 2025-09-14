@@ -5,16 +5,36 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "node ./src/index.js"
+=======
+    "start": "node ./src/index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+>>>>>>> 1edd1014df3d891a1e877150d8c05d71891b187e
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+<<<<<<< HEAD
     "@huggingface/inference": "^4.0.6",
     "express": "^5.1.0",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.30.0"
+=======
+    "@google/genai": "^1.6.0",
+    "@huggingface/inference": "^4.0.6",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "mysql2": "^3.14.5",
+    "nodemon": "^3.1.10",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.33.2"
+>>>>>>> 1edd1014df3d891a1e877150d8c05d71891b187e
   }
 }
