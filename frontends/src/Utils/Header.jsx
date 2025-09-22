@@ -2,7 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { NavLink } from "react-router-dom"
 
-const navLinks = ["Home", "About", "Login", "Contact"]
+const navLinks = ["Home", "About", "Login", "Contact","Register"]
 const MotionNavLink = motion.create(NavLink)
 
 export default function Header() {
